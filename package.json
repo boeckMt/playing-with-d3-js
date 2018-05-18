@@ -1,0 +1,36 @@
+{
+  "name": "playing-with-d3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc:dev": "tsc -w",
+    "rollup:dev": "rollup -c -w",
+    "server:dev": "http-server ./src -p 3005",
+    "start": "npm-run-all --parallel *:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boeckMt/playing-with-d3-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boeckMt/playing-with-d3-js/issues"
+  },
+  "homepage": "https://github.com/boeckMt/playing-with-d3-js#readme",
+  "dependencies": {
+    "d3": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.0.0",
+    "@types/node": "^10.1.2",
+    "http-server": "^0.11.1",
+    "npm-run-all": "^4.1.3",
+    "rollup": "^0.59.1",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-watch": "^4.3.1",
+    "typescript": "^2.8.3"
+  }
+}
