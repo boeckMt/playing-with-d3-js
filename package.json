@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/boeckMt/playing-with-d3-js#readme",
   "dependencies": {
-    "d3": "^5.4.0"
+    "d3": "^5.4.0",
+    "d3-request": "^1.0.6",
+    "geotiff": "^0.4.1"
   },
   "devDependencies": {
     "@types/d3": "^5.0.0",
